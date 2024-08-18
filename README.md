@@ -1,6 +1,9 @@
 # ViewPositionConstraint
 Very simple Unity C# script that automatically syncs avatar's view position with avatar Head bone scale.
 
+## YouTube Video
+[![How to use View Position Constraint YouTube video](https://img.youtube.com/vi/NkRkjRGp6bM/0.jpg)](https://www.youtube.com/watch?v=NkRkjRGp6bM)
+
 ## What does it do?
 Once the constraint is activated, it will try to sync your avatar's view position property with your avatar's head bone.
 
