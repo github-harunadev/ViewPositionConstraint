@@ -22,6 +22,10 @@ Once the constraint is activated, it will try to sync your avatar's view positio
 6. Press Zero to simply activate it without calculating offset.
 7. You're now free adjust the object's position.
 
+## Notice
+This is EditorOnly script. This is not an actual constraint that are related with Unity Constraints and VRC Constraints, but rather a simple utility that can automate the view position relocation when you've rescaled your avatar's body parts.
+This will not be counted as an actual constraint in VRChat SDK build window, since this is an EditorOnly constraint.
+
 ## Requirements
 - Unity 2022 3.22f1
 - VRChat Avatar SDK (Use VRChat Creator Companion)
