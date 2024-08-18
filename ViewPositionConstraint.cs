@@ -25,7 +25,7 @@ public class ViewPositionConstraint : MonoBehaviour, IEditorOnly
 
         if (TargetAvatar != null && Active)
         {
-            ViewPosition = transform.position + Vector3.Scale(Offset, transform.lossyScale);
+            ViewPosition = (transform.position - TargetAvatar.transform.position) + Vector3.Scale(Offset, transform.lossyScale);
             TargetAvatar.ViewPosition = ViewPosition;
 
             if (PreviousViewPosition != ViewPosition)
